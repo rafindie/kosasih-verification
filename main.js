@@ -8,7 +8,7 @@ window.onload = function() {
       submitCallback: function() {
         var formDataSerialized = conversationalForm.getFormData(true);
         var mailchimpUrl =
-          "https://us20.list-manage.com/survey?u=99bd9afcabad96c3e9ed28d68&id=2edb293052";
+          "https://us20.list-manage.com/survey/post-json?u=99bd9afcabad96c3e9ed28d68&id=2edb293052";
         $.ajax({
           url: mailchimpUrl,
           type: "GET",
