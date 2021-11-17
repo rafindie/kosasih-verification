@@ -1,0 +1,34 @@
+  /*--------------------------------------------------------------
+# chat form
+--------------------------------------------------------------*/
+
+#cf-context { 
+    width: 100vw; 
+    height: 100vh; 
+  } 
+  #form {
+    height: 0px;
+  }
+
+  /*--------------------------------------------------------------
+# scrollbar
+--------------------------------------------------------------*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: none; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: none;
+}
